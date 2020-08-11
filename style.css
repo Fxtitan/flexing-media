@@ -6,3 +6,30 @@
   height: 80px;
   border: 2px solid orange;
 }
+
+/* if its 599px and down change to this color. */
+@media(max-width: 599px) {
+  .square {
+    background-color: purple;
+  }
+}
+
+@media(min-width: 600px) and (max-width: 799px) {
+  .container {
+    column-count: 2;
+  }
+}
+
+@media(min-width: 800px) and (max-width: 1000px) {
+  .container {
+    column-count: 10;
+  }
+}
+
+@media(min-width: 1000px) {
+  .container {
+    column-count: 20;
+  }
+}
+
+
